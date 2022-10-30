@@ -15,7 +15,7 @@ Ref: https://documentation.wazuh.com/current/user-manual/ruleset/custom.html
 
 **NOTE**: IDs ```0510``` and ```0705``` are the original ones from https://github.com/wazuh/wazuh/pull/7031 .
 
-You must use your own IDs for Wazuh implementations you have in the range from 100000 to 120000 due to Wazuh's requirements: [Adding new decoders and rules](https://documentation.wazuh.com/current/user-manual/ruleset/custom.html#adding-new-decoders-and-rules).
+You must use your own IDs for Maltrail rules and decoder in Wazuh implementations you have in the range from 100000 to 120000 due to Wazuh's requirements: [Adding new decoders and rules](https://documentation.wazuh.com/current/user-manual/ruleset/custom.html#adding-new-decoders-and-rules).
 
 ## Authors
 
