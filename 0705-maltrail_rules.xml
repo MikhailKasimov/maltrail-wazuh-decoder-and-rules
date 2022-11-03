@@ -6,8 +6,6 @@
   -  This program is a free software; you can redistribute it and/or modify it under the terms of GPLv2.
 -->
 
-</group>
-
 <group name="Maltrail,connection_attempt,">
     <rule id="64520" level="0">
         <decoded_as>CEF</decoded_as>
