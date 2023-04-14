@@ -17,6 +17,8 @@ Ref: https://documentation.wazuh.com/current/user-manual/ruleset/custom.html
 
 You must use your own IDs for Maltrail rules and decoder in Wazuh implementations you have in the range from 100000 to 120000 due to Wazuh's requirements: [Adding new decoders and rules](https://documentation.wazuh.com/current/user-manual/ruleset/custom.html#adding-new-decoders-and-rules).
 
+For example, https://github.com/socfortress/Wazuh-Rules/tree/main/Maltrail integration uses ID 100630.
+
 ## Authors
 
 * Michael Muenz
