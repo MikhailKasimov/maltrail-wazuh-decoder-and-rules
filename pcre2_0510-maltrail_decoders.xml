@@ -2,7 +2,7 @@
   -  Maltrail decoder
   -  Author: Michael Muenz, Julián Morales
   -  Updated by Wazuh, Inc.
-  -  Copyright (C) 2015-2023, Wazuh Inc.
+  -  Copyright (C) 2015-2024, Wazuh Inc.
   -  Copyright (C) 2009 Trend Micro Inc.
   -  This program is a free software; you can redistribute it and/or modify it under the terms of GPLv2.
 -->
@@ -27,6 +27,6 @@
 
 <decoder name="CEF">
       <parent>CEF</parent>
-      <regex type="pcre2">(\w+)\|(\w+)\|(\w+)\|(.*)\|(\d+-\d+-\d+)\|(.*)\|(\d+)\|src=(\d+.\d+.\d+.\d+) spt=(\d+) dst=(\d+.\d+.\d+.\d+) dpt=(\d+) trail=(.*) ref=(.*)</regex>
+      <regex type="pcre2">(\w+)\|(\w+)\|(\w+)\|(.*)\|(\d+-\d+-\d+)\|(.*)\|(\d+)\|src=(\d+.\d+.\d+.\d+) spt=(.*) dst=(\d+.\d+.\d+.\d+) dpt=(.*) trail=(.*) ref=(.*)</regex>
       <order>code, application, type, version, date, category, severity, srcip, srcport, dstip, dstport, trail, ref</order>
 </decoder>
